@@ -1,11 +1,10 @@
-﻿namespace CryptoBank.Features.News.Models
+﻿namespace CryptoBank.Features.News.Models;
+
+public class NewsModel
 {
-    public class NewsModel
-    {
-        public ulong Id { get; set; }
-        public string Title { get; set; }
-        public DateTime Date { get; set; }
-        public string Author { get; set; }
-        public string Content { get; set; }
-    }
+    public ulong Id { get; set; }
+    public string Title { get; set; }
+    public DateTime Date { get; set; }
+    public string Author { get; set; }
+    public string Content { get; set; }
 }
